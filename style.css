@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box
+}
+body{
+    font-family: 'Bebas Neue', cursive;
+}
+hr{
+    width: 70px;
+    border: 1px solid white;
+    border-bottom: 0;
+}
+h2 {
+    margin-top: 50px;
+}
+section{
+    padding: 0 120px;
+}
+
+header.main{
+    background-image:  url('img/tło\ 2.jpg');
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.tytul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nazwa{
+    font-size: 50px;
+}
+
+section header{
+    margin-bottom: 75px;
+}
+
+.przycisk{
+    border: 1px solid rgb(255, 123, 75);
+    background-color:rgb(255, 123, 75);
+    padding: 10px 15px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+.przycisk:hover {
+    opacity: 0.9;
+    color: white;
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(255, 123, 75) ;
+    list-style: none;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+.item a{
+    color: #000;
+}
+.tytul p {
+    font-size: 30px;
+}
+a {
+    text-decoration: none;
+}
+.dwa{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.dwa img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+header.wad hr{
+    width: 70px;
+    border: 1px solid rgb(255, 123, 75);
+    border-bottom: 0;
+}
+section.dwa p{
+    width: 60%;
+}
+#portfolio {
+    text-align: center;
+}
+.portfolio{
+    text-align: center;
+}
+.odnosniki {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 200px;
+
+}
+.odn {
+    flex-basis: 33%;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    position: relative;
+   
+}
+
+.odn img{
+width:100%;
+height: 100%;
+}
+
+.odnosniki .odn h3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(255, 123, 75) ;
+    margin: 0;
+    text-align: center;
+    line-height: 200px;
+    color: white;
+    font-weight: 300;
+    font-size: 3em;
+    opacity: 0;
+    transition: all .3s;
+
+
+}
+.odnosniki .odn h3:hover{
+    opacity: 1;
+}
+
+#kontakt form{
+    max-width: 700px;
+    margin: 40px auto 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+input[type='text'], input[type='email']{
+    flex-basis: 48%;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+textarea{
+    flex-basis: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    height: 100px;
+}
+#kontakt .kontener {
+    text-align: center;
+}
+.social-links{
+margin-top: 75px;
+text-align: center;
+}
+.social-links .social-link{
+    font-size: 3em;
+    color:rgb(255, 123, 75) ;
+    transition: all .3s;
+    display: inline-block;
+    margin: 0 20px;
+}
+.social-links .social-link:hover{
+    opacity: 0.9;
+}
+
+.footer{
+    background-color:rgb(255, 123, 75) ;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
